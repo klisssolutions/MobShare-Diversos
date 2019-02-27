@@ -1,0 +1,348 @@
+body, h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face{
+    font-family: Mont;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: Cyberfunk;
+    src: url(../font/Cyberfunk.ttf);
+}
+@font-face{
+    font-family: D3;
+    src: url(../font/D3Craftism.ttf);
+}
+@font-face{
+    font-family: Club;
+    src: url(../font/Clubbed\ to\ Life.otf);
+}
+
+
+.principal{
+    min-width: 1900px;
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    background-color: #2b2b2b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pfooter{
+    color: #ff9600;
+    text-align: center;
+    font-family: arial;
+    padding-bottom: 20px;
+}
+
+header{
+    width: 100%;
+    height: 115px;
+    background-color: #1b1a1d;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.logo{
+    width: 300px;
+    height: 115px;
+    margin-left: 30px;
+    float: left
+    
+}
+
+.logo{
+    background-image: url(../image/code2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.menu_header{
+    width: 500px;
+    height: 40px;
+    float: right;
+    margin-top: 60px;
+
+}
+
+a{
+    width: 90px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 50px;
+    font-family: Club;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+a:hover{
+     transition: 2s;
+    color: #ff9600;
+    border-bottom: 1px solid #ff9600;
+
+ 
+}
+
+
+.alinhar{
+    width: 128px;
+    height: 128px;
+}
+.alinhar_func{
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.banner{
+    width: 100%;
+    height: 900px;
+    background-image: url(../image/arian-darvishi-1210156-unsplash.jpg);
+    background-size: 100%;
+    padding-top: 80px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tituloBanner h1{
+    font-size: 70px;
+    
+    margin-top: 350px;
+    font-family: Cyberfunk;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+   
+    padding: 50px 50px 50px 10px;
+    width: 700px;
+    background-color: #1b1a1d;
+    color: #ff9600;
+	
+	cursor: default;
+	transition: 1s;
+}
+
+.tituloBanner h1:hover{
+    background-color: #ff9600;
+    color: #fff;
+	
+	cursor: default;
+	transition: 1s;
+}
+
+.projeto{
+    width: 100%;
+    height: 700px;
+    background-color:#161616;
+    padding-top: 100px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.imagem_projeto{
+    width: 600px;
+	max-width: 30%;
+    height: 400px;
+    float: left;
+    margin-left: 20%;
+    margin-top: -50px;
+	padding-top: 25px;
+}
+
+.texto_projeto{
+    width: 20%;
+    height: 300px;
+    float: right;
+    margin-right: 30%;
+	padding-top: 25px;
+}
+
+.sobre_empresa{
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/pankaj-patel-561360-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sobre_empresa_texto{
+    width: 800px;
+    z-index: 999;
+    height: 450px;
+    background-color: #161616;
+    margin-left: 600px;
+    margin-top: 150px;
+    float: left;
+}
+
+.sobre_empresa_texto h1{
+    font-family: Club;
+    font-size: 32px;
+    text-align: center;
+    color: #ffa726;
+    padding-top: 20px;
+}
+
+.sobre_empresa_texto p{
+    font-family: arial;
+    padding: 20px;
+    font-size: 24px;
+    text-align: justify;
+    color: #fff;
+}
+
+.texto_projeto h1{
+    font-family: Club;
+    color: #ff9600;
+    font-size: 24px;
+}
+
+.texto_projeto p{
+    padding-top: 15px;
+    font-family: arial;
+    color: #fff;
+}
+.funcionarios{
+    width: 100%;
+    height: 550px;
+    background-color:#2b2b2b;
+    padding-top: 100px;
+    
+}
+
+.pessoa{
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+    float: left;
+    margin-bottom: 20px;    
+}
+
+.pessoa:hover{
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.pessoa h1{
+    font-family: Club;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    color: #ff9600;
+}
+
+.pessoa p{
+    font-family: arial;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+.img{
+    filter: grayscale(100%); 
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.img-fun{border-radius: 100px;}
+
+.img:hover{
+    transition: 2s;
+    filter: grayscale(0%); 
+}
+
+.empresa{
+    width: 200px;
+    height: 150px;
+    background-color: mistyrose;
+    margin-right: 90px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:#2b2b2b;
+    float: left;
+}
+
+.rede_social{
+    width: 350px;
+    height: 70px;
+    float: right;
+    margin-right: 110px;
+    margin-top: 40px;   
+}
+
+.facebook{
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.instagram{
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.twitter{
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-top: 40px;
+    margin-left: -80px;
+    margin-left: 10px;
+}
+
+.contato{
+    width: 900px;
+    height: 100%;
+    float: left;
+}
+
+.contato h1{
+    font-family: Club;
+    color: #ff9600;
+    margin-left: 50px; 
+    margin-top: 50px; 
+}
+
+.contato p{
+    margin-left: 50px;  
+    font-size: 20px;
+    color: #fff;
+    font-family: arial; 
+}
+
+.logof{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.bx-wrapper, .bx-viewport, .bx-wrapper img {max-height: 1000px !important;}
